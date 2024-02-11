@@ -32,13 +32,6 @@ function playRound(playerSelection, computerSelection){
         return `You Lose! ${computerSelection} beats ${playerSelection}`;
     }
 }
-function playGame(){
-    for(let i=0;i<5;i++){
-    const playerSelection = prompt('Rock Paper Scissors').toLowerCase();
-    console.log(playRound(playerSelection, computerSelection));
-}
-console.log("Game Over!");
-}
 
 const computerSelection = getComputerChoice();
 playGame();
