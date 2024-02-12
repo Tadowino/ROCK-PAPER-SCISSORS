@@ -15,7 +15,7 @@ header{
     font-family: sans-serif;
     font-weight: 800;
 }
-#results{
+.results{
     text-align: center;
     color: white;
     font-family: sans-serif;
